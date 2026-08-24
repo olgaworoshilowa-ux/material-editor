@@ -1,0 +1,34 @@
+:root {
+  --primary: #34c759;
+  --primary-hover: #2db34e;
+  --primary-soft: #eaf9ef;
+  --primary-border: rgba(52, 199, 89, 0.35);
+
+  font-family: 'Open Sans', system-ui, -apple-system, sans-serif;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #222;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+button,
+input {
+  font: inherit;
+}
